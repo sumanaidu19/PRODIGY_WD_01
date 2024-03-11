@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   
+}
+.image{
+    height: 50px;
+    width: 50px;
+
+}
+a:hover{
+    font-family:sans-serif;
+    color:aliceblue !important;
+    font-size: 19px;
+}
+body{
+    background-image: url('./images/golden-cutlery-with-textile-plate-dark-background-top-view.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.suma{
+    color: azure;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.check{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    padding: 2px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: crimson;
+    border-radius:  10px;
+    color: aliceblue;
+
+}
+.form{
+    color:indigo;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 150px;
+    margin-left: 0;
+    padding-left:50px;
+    padding-top: 20px;
+    background-attachment: fixed;
+    
+    
+}
+.booking{
+    color: aliceblue;
+    margin: 20px;
+    margin-left: 0;
+    width: 50vh;
+
+    
+
+}
+.people{
+    width: 50vh;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.time{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:768px){
+    
+    .suma{
+        font-size: 15px;
+    }
+
+    .date{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .firstname{
+        width: 40vh;
+    }
+    .lastname{
+        width: 40vh;
+    }
+    .email{
+        width: 40vh;
+    }
+    .people{
+        width: 40vh;
+    }
+    .phonenumber{
+        width: 40vh;
+    }
+    .pdate{
+        width: 40vh;
+    }
+    .ptime{
+        width: 40vh;
+        
+    }
+
+}
